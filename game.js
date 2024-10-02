@@ -2,7 +2,7 @@ const canvas = document.getElementById('flappyBirdCanvas');
 const ctx = canvas.getContext('2d');
 
 // Переменные
-let gap = 85;
+let gap = 115;
 let constant;
 
 let birdX = 10;
