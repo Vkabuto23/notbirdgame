@@ -60,7 +60,7 @@ function draw() {
         if (pipe[i].x === 125) {
             pipe.push({
                 x: canvas.width,
-                y: Math.floor(Math.random() * pipeHeight) - pipeHeight
+                y: Math.floor(Math.random() * (canvas.height - gap - 50)) - pipeNorth.height  // Более случайная высота
             });
         }
 
