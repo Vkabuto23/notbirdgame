@@ -8,7 +8,7 @@ let constant;
 let birdX = 10;
 let birdY = 150;
 let birdSize = 20;
-let gravity = 1.5;
+let gravity = 0.5;
 let score = 0;
 
 let pipeWidth = 40;
