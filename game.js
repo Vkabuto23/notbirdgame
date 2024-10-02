@@ -45,7 +45,7 @@ function draw() {
 
     // Трубы
     for (let i = 0; i < pipe.length; i++) {
-        constant = 150; // Расстояние между верхней и нижней трубой
+        constant = 220; // Расстояние между верхней и нижней трубой
         let pipeHeight = pipe[i].y + pipeWidth;
 
         // Верхняя труба
