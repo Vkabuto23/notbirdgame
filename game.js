@@ -23,7 +23,7 @@ pipe[0] = {
 document.addEventListener('keydown', moveUp);
 
 function moveUp() {
-    birdY -= 25;
+    birdY -= 60;
 }
 
 // Логика игры
